@@ -19,7 +19,7 @@ def home():
         "<h1>Deployed by Jenkins</h1>"
         f"<p>Build version: <b>{APP_VERSION}</b></p>"
         f"<p>Container: <b>{socket.gethostname()}</b></p>"
-        "<p>This version was deployed automatically after a git push.</p>"
+        "<p>Current Version</p>"
         "</body></html>"
     )
 
