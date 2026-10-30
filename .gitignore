@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+test-results.xml
+
+# Terraform: never commit state, providers or variable files with real values
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/crash.log
+!terraform/terraform.tfvars.example
+
+# Private notes
+DEMO_SCRIPT.md
+*.pem
