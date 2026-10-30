@@ -14,7 +14,7 @@ sudo apt-get install -y openjdk-17-jre curl gnupg git unzip \
 
 echo "==> Jenkins repository and install"
 sudo install -d -m 0755 /usr/share/keyrings
-sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key \
+sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key \
   -o /usr/share/keyrings/jenkins-keyring.asc
 echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" \
   | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
