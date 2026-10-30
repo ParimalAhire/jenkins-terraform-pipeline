@@ -9,7 +9,7 @@ minikube delete 2>/dev/null || true
 
 echo "==> Base packages"
 sudo apt-get update -y
-sudo apt-get install -y openjdk-17-jre curl gnupg git unzip \
+sudo apt-get install -y openjdk-21-jre curl gnupg git unzip \
   python3 python3-venv python3-pip ca-certificates
 
 echo "==> Jenkins repository and install"
